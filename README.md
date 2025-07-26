@@ -1,10 +1,12 @@
 # 🚗 ESP32 Bluetooth RC Car Project
 
 A comprehensive remote-controlled car project using ESP32 microcontroller with Bluetooth connectivity and L298N Dual H-Bridge motor driver. This project allows you to control a robotic car wirelessly using a smartphone app via Bluetooth communication with four DC gear motors for enhanced traction and control.
+![demo_img](https://github.com/user-attachments/assets/bec51de1-fa78-4c3e-8a96-df76d3f4e561)
 
 ## � Project Overview
 
 This RC car is built using an **ESP32 development board** and can be controlled remotely through Bluetooth using the **Dabble app**. The car features a **four-wheel drive system** with **L298N motor driver** controlling four DC geared motors. It supports basic movements including forward, backward, left turn, and right turn operations with tank-style steering (differential drive) for precise maneuvering.
+![demo_img1](https://github.com/user-attachments/assets/e167dd12-1569-43c7-a181-b5cb9fed7cbc)
 
 ## 📁 Files Included
 
@@ -34,9 +36,13 @@ This RC car is built using an **ESP32 development board** and can be controlled 
 - **Hot glue gun** - Optional for securing components
 - **Reverse polarity protection diode** - Safety component for battery connections
 
+https://github.com/user-attachments/assets/e628cd14-9ddd-4c41-9161-58598535bc84
+
 ## 🔌 Circuit Diagram Analysis
 
 **Refer to `ESP32 Bluetooth Car.png` for detailed visual connections.**
+
+
 
 ### Pin Configuration:
 
@@ -80,6 +86,9 @@ L298N +5V Out    →    ESP32 VIN                 →    5V Regulated (ESP32 Pow
 - **⚠️ L298N 5V Regulator Jumper**: Ensure the onboard 5V regulator jumper on the L298N is present to supply regulated 5V to ESP32
 - **⚠️ Current Capacity**: L298N supports up to **2A per channel** - verify your motors don't exceed this limit
 - **⚠️ Heat Dissipation**: L298N may require heat sink for continuous operation at high currents
+
+<img width="2289" height="1887" alt="ESP32 Bluetooth Car" src="https://github.com/user-attachments/assets/45e2adb4-3886-4473-929f-42a96aba89cb" />
+
 
 ## 📱 Software Requirements
 
